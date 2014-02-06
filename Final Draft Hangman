@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+	
+		<title>Hangman</title>
+		
+		<link rel="stylesheet" href="css/hangman.css">
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+	<body>
+		<div id="header">
+			<header>
+				<h1>Hangman</h1>
+				<h2>Try to guess the phrase!</h2>
+				<div class="restart-button">
+					<div class="classname">Restart Game</div>
+				</div>
+			</header> 	
+		</div>
+		<div id="container">
+			<div id="hangman">
+					<div class="image default"></div>
+					<div class="image noose"></div>
+					<div class="image head"></div>
+					<div class="image body"></div>
+					<div class="image left-arm"></div>
+					<div class="image right-arm"></div>
+					<div class="image left-leg"></div>
+					<div class="image right-leg"></div>
+					<div class="image left-eye"></div>
+					<div class="image right-eye"></div>
+					<div class="image mouth"></div>
+					<div class="image win"></div>
+				</div>
+			<div class="word clearfix">
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+				<div class="letter">&nbsp;</div>
+			</div>
+			<div class="keyboard clearfix">
+				<div class="key">A</div> 
+				<div class="key">B</div>
+				<div class="key">C</div>
+				<div class="key">D</div>
+				<div class="key">E</div>
+				<div class="key">F</div>
+				<div class="key">G</div>
+				<div class="key">H</div>
+				<div class="key">I</div>
+				<div class="key">J</div>
+				<div class="key">K</div>
+				<div class="key">L</div>
+				<div class="key">M</div>
+				<div class="key">N</div>
+				<div class="key">O</div>
+				<div class="key">P</div>
+				<div class="key">Q</div>
+				<div class="key">R</div>
+				<div class="key">S</div>
+				<div class="key">T</div>
+				<div class="key">U</div>
+				<div class="key">V</div>
+				<div class="key">W</div>
+				<div class="key">X</div>
+				<div class="key">Y</div>
+				<div class="key">Z</div>
+			</div>
+		</div>
+		<canvas id="world"></canvas>
+		<script src="js/main.js"></script>
+	</body>
+</html>
